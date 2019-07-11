@@ -17,7 +17,7 @@ class String
   def count_sentences()
     array = []
     if array.size == 0
-      array << self.split(".","!","?")
+      array << self.split(".")
   end
   return array.size
 end
