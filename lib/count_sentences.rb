@@ -21,3 +21,4 @@ class String
   end
   return array.size
 end
+end
