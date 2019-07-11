@@ -18,6 +18,6 @@ class String
     array = []
     if array.size == 0
       array << self.split(".","!","?")
-      array.count
   end
+  return array.size
 end
